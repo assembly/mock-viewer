@@ -4,7 +4,7 @@ Do you hate uploading mockups to your phone and viewing them squished in the Pho
 
 Do you hate not having an easy way to share those same mocks with others?
 
-The Assembly MockViewer has your covered.
+The Assembly MockViewer has you covered.
 
 ## Prerequisites
 
@@ -15,23 +15,23 @@ The Assembly MockViewer has your covered.
 
 1. Setup Nginx to host your mockups by placing something like the following your in your nginx.conf.
 
-    server {
-      listen 80;
-      server_name yourwebsite.com;
-    
-      location /mocks {
-        root   /data/yourwebsite-mocks/;
-        index  index.html index.htm;
-    
-        # MockViewer looks for the files listed by autoindex
-        autoindex on;
-    
-        ## Uncomment these lines to password protect the mocks
-        ## Password setup info here: http://wiki.nginx.org/HttpAuthBasicModule
-        # auth_basic "Restricted";
-        # auth_basic_user_file httpaccess;
+      server {
+        listen 80;
+        server_name yourwebsite.com;
+      
+        location /mocks {
+          root   /data/yourwebsite-mocks/;
+          index  index.html index.htm;
+      
+          # MockViewer looks for the files listed by autoindex
+          autoindex on;
+      
+          ## Uncomment these lines to password protect the mocks
+          ## Password setup info here: http://wiki.nginx.org/HttpAuthBasicModule
+          # auth_basic "Restricted";
+          # auth_basic_user_file httpaccess;
+        }
       }
-    }
 
 2. Open MockViewer/MockViewer.xcodeproj with Xcode, alter Config.h to point to you Nginx server and use authentication if desired.
 
