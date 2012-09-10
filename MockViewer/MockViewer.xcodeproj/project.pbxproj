@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1733B68515FE83660048989F /* Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 1733B68415FE83660048989F /* Base64.m */; };
+		17DA188115C83F08001375B7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17DA188015C83F08001375B7 /* UIKit.framework */; };
+		17DA188315C83F08001375B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17DA188215C83F08001375B7 /* Foundation.framework */; };
+		17DA188515C83F08001375B7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17DA188415C83F08001375B7 /* CoreGraphics.framework */; };
+		17DA188B15C83F08001375B7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 17DA188915C83F08001375B7 /* InfoPlist.strings */; };
+		17DA188D15C83F08001375B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 17DA188C15C83F08001375B7 /* main.m */; };
+		17DA189115C83F08001375B7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 17DA189015C83F08001375B7 /* AppDelegate.m */; };
+		17DA189A15C83F4B001375B7 /* MocksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17DA189815C83F4B001375B7 /* MocksViewController.m */; };
+		17DA189B15C83F4B001375B7 /* MocksViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17DA189915C83F4B001375B7 /* MocksViewController.xib */; };
+		17DA189D15C83FC1001375B7 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17DA189C15C83FC1001375B7 /* CFNetwork.framework */; };
+		17DA18A115C85A58001375B7 /* MockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17DA189F15C85A58001375B7 /* MockViewController.m */; };
+		17DA18A215C85A58001375B7 /* MockViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17DA18A015C85A58001375B7 /* MockViewController.xib */; };
+		17DA18A415C868B5001375B7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17DA18A315C868B5001375B7 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1733B68115FE80AB0048989F /* Config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
+		1733B68315FE83660048989F /* Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64.h; sourceTree = "<group>"; };
+		1733B68415FE83660048989F /* Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Base64.m; sourceTree = "<group>"; };
+		17DA187C15C83F08001375B7 /* MockViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MockViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		17DA188015C83F08001375B7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		17DA188215C83F08001375B7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		17DA188415C83F08001375B7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		17DA188815C83F08001375B7 /* MockViewer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MockViewer-Info.plist"; sourceTree = "<group>"; };
+		17DA188A15C83F08001375B7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		17DA188C15C83F08001375B7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		17DA188E15C83F08001375B7 /* MockViewer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MockViewer-Prefix.pch"; sourceTree = "<group>"; };
+		17DA188F15C83F08001375B7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		17DA189015C83F08001375B7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		17DA189715C83F4B001375B7 /* MocksViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MocksViewController.h; sourceTree = "<group>"; };
+		17DA189815C83F4B001375B7 /* MocksViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MocksViewController.m; sourceTree = "<group>"; };
+		17DA189915C83F4B001375B7 /* MocksViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MocksViewController.xib; sourceTree = "<group>"; };
+		17DA189C15C83FC1001375B7 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		17DA189E15C85A58001375B7 /* MockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MockViewController.h; sourceTree = "<group>"; };
+		17DA189F15C85A58001375B7 /* MockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MockViewController.m; sourceTree = "<group>"; };
+		17DA18A015C85A58001375B7 /* MockViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MockViewController.xib; sourceTree = "<group>"; };
+		17DA18A315C868B5001375B7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17DA187915C83F08001375B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17DA18A415C868B5001375B7 /* QuartzCore.framework in Frameworks */,
+				17DA189D15C83FC1001375B7 /* CFNetwork.framework in Frameworks */,
+				17DA188115C83F08001375B7 /* UIKit.framework in Frameworks */,
+				17DA188315C83F08001375B7 /* Foundation.framework in Frameworks */,
+				17DA188515C83F08001375B7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17DA187115C83F08001375B7 = {
+			isa = PBXGroup;
+			children = (
+				17DA188615C83F08001375B7 /* MockViewer */,
+				17DA187F15C83F08001375B7 /* Frameworks */,
+				17DA187D15C83F08001375B7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		17DA187D15C83F08001375B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17DA187C15C83F08001375B7 /* MockViewer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17DA187F15C83F08001375B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17DA189C15C83FC1001375B7 /* CFNetwork.framework */,
+				17DA188015C83F08001375B7 /* UIKit.framework */,
+				17DA188215C83F08001375B7 /* Foundation.framework */,
+				17DA188415C83F08001375B7 /* CoreGraphics.framework */,
+				17DA18A315C868B5001375B7 /* QuartzCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		17DA188615C83F08001375B7 /* MockViewer */ = {
+			isa = PBXGroup;
+			children = (
+				1733B68115FE80AB0048989F /* Config.h */,
+				1733B68315FE83660048989F /* Base64.h */,
+				1733B68415FE83660048989F /* Base64.m */,
+				17DA188F15C83F08001375B7 /* AppDelegate.h */,
+				17DA189015C83F08001375B7 /* AppDelegate.m */,
+				17DA189715C83F4B001375B7 /* MocksViewController.h */,
+				17DA189815C83F4B001375B7 /* MocksViewController.m */,
+				17DA189915C83F4B001375B7 /* MocksViewController.xib */,
+				17DA189E15C85A58001375B7 /* MockViewController.h */,
+				17DA189F15C85A58001375B7 /* MockViewController.m */,
+				17DA18A015C85A58001375B7 /* MockViewController.xib */,
+				17DA188715C83F08001375B7 /* Supporting Files */,
+			);
+			path = MockViewer;
+			sourceTree = "<group>";
+		};
+		17DA188715C83F08001375B7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				17DA188815C83F08001375B7 /* MockViewer-Info.plist */,
+				17DA188915C83F08001375B7 /* InfoPlist.strings */,
+				17DA188C15C83F08001375B7 /* main.m */,
+				17DA188E15C83F08001375B7 /* MockViewer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17DA187B15C83F08001375B7 /* MockViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17DA189415C83F08001375B7 /* Build configuration list for PBXNativeTarget "MockViewer" */;
+			buildPhases = (
+				17DA187815C83F08001375B7 /* Sources */,
+				17DA187915C83F08001375B7 /* Frameworks */,
+				17DA187A15C83F08001375B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MockViewer;
+			productName = MockViewer;
+			productReference = 17DA187C15C83F08001375B7 /* MockViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17DA187315C83F08001375B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Loudly Inc.";
+			};
+			buildConfigurationList = 17DA187615C83F08001375B7 /* Build configuration list for PBXProject "MockViewer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 17DA187115C83F08001375B7;
+			productRefGroup = 17DA187D15C83F08001375B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17DA187B15C83F08001375B7 /* MockViewer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17DA187A15C83F08001375B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17DA188B15C83F08001375B7 /* InfoPlist.strings in Resources */,
+				17DA189B15C83F4B001375B7 /* MocksViewController.xib in Resources */,
+				17DA18A215C85A58001375B7 /* MockViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17DA187815C83F08001375B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17DA188D15C83F08001375B7 /* main.m in Sources */,
+				17DA189115C83F08001375B7 /* AppDelegate.m in Sources */,
+				17DA189A15C83F4B001375B7 /* MocksViewController.m in Sources */,
+				17DA18A115C85A58001375B7 /* MockViewController.m in Sources */,
+				1733B68515FE83660048989F /* Base64.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		17DA188915C83F08001375B7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17DA188A15C83F08001375B7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		17DA189215C83F08001375B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		17DA189315C83F08001375B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		17DA189515C83F08001375B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MockViewer/MockViewer-Prefix.pch";
+				INFOPLIST_FILE = "MockViewer/MockViewer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		17DA189615C83F08001375B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MockViewer/MockViewer-Prefix.pch";
+				INFOPLIST_FILE = "MockViewer/MockViewer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17DA187615C83F08001375B7 /* Build configuration list for PBXProject "MockViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17DA189215C83F08001375B7 /* Debug */,
+				17DA189315C83F08001375B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17DA189415C83F08001375B7 /* Build configuration list for PBXNativeTarget "MockViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17DA189515C83F08001375B7 /* Debug */,
+				17DA189615C83F08001375B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 17DA187315C83F08001375B7 /* Project object */;
+}
